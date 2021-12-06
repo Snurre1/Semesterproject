@@ -11,7 +11,7 @@ body{
 header{
     display: flex;
     height: 100px;
-    min-width: none;
+    
 }
 h1, h2{
     color: white;
@@ -33,19 +33,20 @@ p{
 }
 
 .logo{ 
-    width: 70px;
+    width: 80px;
+    margin: 10px;
 }
 img {
     width: 100%;
 }
 main{
     background: black;
-    transparent: 50%;
+
 }
 .product{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
 }
 
 .productimg{
