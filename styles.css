@@ -5,13 +5,11 @@
 
 body{
     background-image: url(/images/AdobeStock_126681215-min.jpg);
-    background-image: no-repeat;
-    font-size: 14px;
 }
 header{
     display: flex;
     justify-content: space-between;
-    max-height: 110px;
+    max-height: 120px;
     width: 100%;
 }
 
@@ -45,9 +43,7 @@ p , li{
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-
-
-p{
+p , address{
     color: #F4F6D9;
     font-size:1em;
     margin: 10px;
@@ -59,9 +55,7 @@ p{
     width: 75px;
     margin: 10px;
 }
-img {
-    width: 100%;
-}
+
 main{
     min-height: calc(100vh - 40px);
     background-color: rgba(0,0,0,0.5);
@@ -73,14 +67,26 @@ main{
     color: white;
 }
 section{
-    display: flex;   
+    display: flex;
+    margin: auto;   
+}
+.productcard{
+    margin: auto;
 }
 
-.productimg{
+img{
     width: 100px;
     margin:25px;
     float: left;
 }
+.maplink{
+    color: #FF58F9;
+}
+
+.openinghours{
+    width: 2em;
+}
+
 
 .bottomnav{
     text-align: center;
