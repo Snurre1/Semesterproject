@@ -48,7 +48,6 @@ p , address{
     font-size:1em;
     margin: 10px;
     padding: 10px;
-    text-align: justify;
 }
 
 .logo{ 
@@ -67,16 +66,16 @@ main{
     color: white;
 }
 section{
-    display: flex;
-    margin: auto;   
+    display: flex; 
 }
 .productcard{
     margin: auto;
 }
 
 img{
-    width: 100px;
-    margin:25px;
+    max-width: 150px;
+    min-height: 110px;
+    margin:10px 25px;
     float: left;
 }
 .maplink{
@@ -84,7 +83,8 @@ img{
 }
 
 .openinghours{
-    width: 2em;
+    width: 10em;
+    margin: auto;
 }
 
 
@@ -109,6 +109,21 @@ a{
     font-size: 1em;
     color: #F4F6D9;
     
+}
+
+form{
+    text-align:center;
+    color: #F4F6D9;
+    width: 12em;
+}
+
+fieldset{
+    border: none;
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
 }
 
 .dropbtn {
