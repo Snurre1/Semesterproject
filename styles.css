@@ -75,7 +75,7 @@ section{
     display: flex; 
 }
 .productcard{
-    margin: auto;
+    padding: 30px;
 }
 
 img{
