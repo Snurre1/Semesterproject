@@ -1,11 +1,12 @@
 * {
-  margin: 0px;
+  margin: 0;
   padding: 0;
 }
 
 body {
   background-image: url(/images/AdobeStock_126681215-min.jpg);
   background-size: cover;
+  font-size: 10px;
 }
 header {
   display: flex;
@@ -28,6 +29,7 @@ h2 {
 h1 {
   display: inline-block;
   width: 3em;
+  margin: 20px;
 }
 
 h2 {
@@ -56,7 +58,7 @@ address {
 }
 
 address {
-  width: 17em;
+  width: 22em;
 }
 
 .logo {
@@ -65,8 +67,8 @@ address {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   min-height: calc(100vh - 40px);
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -84,14 +86,10 @@ main {
 }
 
 img {
-  max-width: 150px;
+  max-width: 100px;
   min-height: 110px;
   margin: 10px 25px;
   float: left;
-}
-
-.smallimg {
-  max-width: 110px;
 }
 
 .maplink {
@@ -99,7 +97,7 @@ img {
 }
 
 .openinghours {
-  width: 10em;
+  width: 11em;
   margin: auto;
 }
 
@@ -129,7 +127,7 @@ a {
 form {
   text-align: center;
   color: #f4f6d9;
-  width: 12em;
+  width: 17em;
 }
 
 fieldset {
@@ -168,7 +166,7 @@ input {
 }
 
 .has-dropdown {
-  padding: 50px;
+  padding: 55px;
 }
 
 .has-dropdown:focus-within .dropdown {
@@ -180,31 +178,47 @@ input {
   color: #ff58f9;
 }
 
-@media screen and (min-width:900px) {
+@media screen and (min-width: 800px) {
+  body{
+    font-size: 16px;
+  }
 
-    .row{
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-areas: 'row row'
-                             'row row';
-    }
-    .btn{
-        display: none;
-    }
-    
-    .dropdown{
-        opacity: 1;
-        height: 0;
-        transform: none;
-        transition: none;
-        width: auto;
-        background: 0;
-        display: block;
-        position: static;
-    }
+  .row {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .btn {
+    display: none;
+  }
+  .dropdown {
+    opacity: 1;
+    height: 0;
+    transform: none;
+    transition: none;
+    width: auto;
+    background: 0;
+    display: block;
+    position: static;
+  }
 
-    .dropdown-item{
-        padding: 10px;;
-    }
+  .dropdown-item {
+    padding: 10px;
+  }
+
+  img {
+    max-width: 150px;
+  }
+
+  .smallimg {
+    max-width: 100px;
+  }
+  address{
+    width: 17em;
+  }
+  form{
+    width: 10em;
+  }
+  h1{
+    margin: 0;
+  }
 }
-
