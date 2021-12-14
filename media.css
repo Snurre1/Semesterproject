@@ -1,0 +1,46 @@
+@media screen and (min-width: 750px) {
+    body{
+      font-size: 16px;
+    }
+  
+    .column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .btn {
+      display: none;
+    }
+    .dropdown {
+      opacity: 1;
+      height: 0;
+      transform: none;
+      transition: none;
+      width: auto;
+      background: 0;
+      display: block;
+      position: static;
+    }
+  
+    .dropdown-item {
+      padding: 10px;
+    }
+  
+    img {
+      max-width: 150px;
+    }
+  
+    .smallimg {
+      max-width: 100px;
+    }
+    address{
+      width: 17em;
+    }
+    form{
+      width: 12em;
+    }
+    h1{
+      margin: 0;
+    }
+  }
+  

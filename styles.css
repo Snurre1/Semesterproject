@@ -21,7 +21,8 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3{
   color: #f4f6d9;
   font-size: 2em;
   font-family: "audiowide", Impact, Haettenschweiler, "Arial Narrow Bold",
@@ -33,21 +34,20 @@ h1 {
   margin: 20px;
 }
 
-h2 {
+h2, h3 {
   padding: 15px;
   text-align: center;
 }
 h3 {
-  color: #f4f6d9;
   font-size: 1.5em;
-  font-family: "audiowide";
-  text-align: center;
-  margin: 15px;
 }
 
-p,
-li {
+p, li, span {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+span{
+  padding:3px;
 }
 
 p,
@@ -74,6 +74,8 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+
 .copyright {
   display: block;
   text-align: center;
@@ -98,10 +100,9 @@ img {
 }
 
 .openinghours {
-  width: 0em;
+  width: 9em;
   margin: auto;
 }
-
 
 .bottomnav {
   text-align: center;
@@ -129,14 +130,14 @@ a {
 form {
   text-align: center;
   color: #f4f6d9;
-  width: 17em;
+  width: 19em;
 }
 
 fieldset {
   border: none;
 }
 
-input {
+input, textarea {
   padding: 5px;
   margin: 10px;
 }
@@ -168,7 +169,7 @@ input {
 }
 
 .has-dropdown {
-  padding: 55px;
+  padding: 55px 15px;
 }
 
 .has-dropdown:focus-within .dropdown {
@@ -178,50 +179,4 @@ input {
 
 .active {
   color: #ff58f9;
-}
-
-@media screen and (min-width: 750px) {
-  body{
-    font-size: 16px;
-  }
-
-  .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .btn {
-    display: none;
-  }
-  .dropdown {
-    opacity: 1;
-    height: 0;
-    transform: none;
-    transition: none;
-    width: auto;
-    background: 0;
-    display: block;
-    position: static;
-  }
-
-  .dropdown-item {
-    padding: 10px;
-  }
-
-  img {
-    max-width: 150px;
-  }
-
-  .smallimg {
-    max-width: 100px;
-  }
-  address{
-    width: 17em;
-  }
-  form{
-    width: 10em;
-  }
-  h1{
-    margin: 0;
-  }
 }
